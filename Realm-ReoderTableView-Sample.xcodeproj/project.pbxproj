@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		875BE6C81D730CDB00EE48B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BE6C71D730CDB00EE48B2 /* AppDelegate.swift */; };
+		875BE6CA1D730CDB00EE48B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BE6C91D730CDB00EE48B2 /* ViewController.swift */; };
+		875BE6CD1D730CDB00EE48B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875BE6CB1D730CDB00EE48B2 /* Main.storyboard */; };
+		875BE6CF1D730CDB00EE48B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875BE6CE1D730CDB00EE48B2 /* Assets.xcassets */; };
+		875BE6D21D730CDB00EE48B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875BE6D01D730CDB00EE48B2 /* LaunchScreen.storyboard */; };
+		875BE6DD1D730CDC00EE48B2 /* Realm_ReoderTableView_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BE6DC1D730CDC00EE48B2 /* Realm_ReoderTableView_SampleTests.swift */; };
+		875BE6E81D730CDC00EE48B2 /* Realm_ReoderTableView_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BE6E71D730CDC00EE48B2 /* Realm_ReoderTableView_SampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		875BE6D91D730CDC00EE48B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 875BE6BC1D730CDB00EE48B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 875BE6C31D730CDB00EE48B2;
+			remoteInfo = "Realm-ReoderTableView-Sample";
+		};
+		875BE6E41D730CDC00EE48B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 875BE6BC1D730CDB00EE48B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 875BE6C31D730CDB00EE48B2;
+			remoteInfo = "Realm-ReoderTableView-Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		875BE6C41D730CDB00EE48B2 /* Realm-ReoderTableView-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realm-ReoderTableView-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875BE6C71D730CDB00EE48B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		875BE6C91D730CDB00EE48B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		875BE6CC1D730CDB00EE48B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		875BE6CE1D730CDB00EE48B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		875BE6D11D730CDB00EE48B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		875BE6D31D730CDB00EE48B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875BE6D81D730CDC00EE48B2 /* Realm-ReoderTableView-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Realm-ReoderTableView-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875BE6DC1D730CDC00EE48B2 /* Realm_ReoderTableView_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm_ReoderTableView_SampleTests.swift; sourceTree = "<group>"; };
+		875BE6DE1D730CDC00EE48B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875BE6E31D730CDC00EE48B2 /* Realm-ReoderTableView-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Realm-ReoderTableView-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875BE6E71D730CDC00EE48B2 /* Realm_ReoderTableView_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm_ReoderTableView_SampleUITests.swift; sourceTree = "<group>"; };
+		875BE6E91D730CDC00EE48B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		875BE6C11D730CDB00EE48B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875BE6D51D730CDC00EE48B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875BE6E01D730CDC00EE48B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		875BE6BB1D730CDB00EE48B2 = {
+			isa = PBXGroup;
+			children = (
+				875BE6C61D730CDB00EE48B2 /* Realm-ReoderTableView-Sample */,
+				875BE6DB1D730CDC00EE48B2 /* Realm-ReoderTableView-SampleTests */,
+				875BE6E61D730CDC00EE48B2 /* Realm-ReoderTableView-SampleUITests */,
+				875BE6C51D730CDB00EE48B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		875BE6C51D730CDB00EE48B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				875BE6C41D730CDB00EE48B2 /* Realm-ReoderTableView-Sample.app */,
+				875BE6D81D730CDC00EE48B2 /* Realm-ReoderTableView-SampleTests.xctest */,
+				875BE6E31D730CDC00EE48B2 /* Realm-ReoderTableView-SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		875BE6C61D730CDB00EE48B2 /* Realm-ReoderTableView-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				875BE6C71D730CDB00EE48B2 /* AppDelegate.swift */,
+				875BE6C91D730CDB00EE48B2 /* ViewController.swift */,
+				875BE6CB1D730CDB00EE48B2 /* Main.storyboard */,
+				875BE6CE1D730CDB00EE48B2 /* Assets.xcassets */,
+				875BE6D01D730CDB00EE48B2 /* LaunchScreen.storyboard */,
+				875BE6D31D730CDB00EE48B2 /* Info.plist */,
+			);
+			path = "Realm-ReoderTableView-Sample";
+			sourceTree = "<group>";
+		};
+		875BE6DB1D730CDC00EE48B2 /* Realm-ReoderTableView-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				875BE6DC1D730CDC00EE48B2 /* Realm_ReoderTableView_SampleTests.swift */,
+				875BE6DE1D730CDC00EE48B2 /* Info.plist */,
+			);
+			path = "Realm-ReoderTableView-SampleTests";
+			sourceTree = "<group>";
+		};
+		875BE6E61D730CDC00EE48B2 /* Realm-ReoderTableView-SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				875BE6E71D730CDC00EE48B2 /* Realm_ReoderTableView_SampleUITests.swift */,
+				875BE6E91D730CDC00EE48B2 /* Info.plist */,
+			);
+			path = "Realm-ReoderTableView-SampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		875BE6C31D730CDB00EE48B2 /* Realm-ReoderTableView-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875BE6EC1D730CDC00EE48B2 /* Build configuration list for PBXNativeTarget "Realm-ReoderTableView-Sample" */;
+			buildPhases = (
+				875BE6C01D730CDB00EE48B2 /* Sources */,
+				875BE6C11D730CDB00EE48B2 /* Frameworks */,
+				875BE6C21D730CDB00EE48B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Realm-ReoderTableView-Sample";
+			productName = "Realm-ReoderTableView-Sample";
+			productReference = 875BE6C41D730CDB00EE48B2 /* Realm-ReoderTableView-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		875BE6D71D730CDC00EE48B2 /* Realm-ReoderTableView-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875BE6EF1D730CDC00EE48B2 /* Build configuration list for PBXNativeTarget "Realm-ReoderTableView-SampleTests" */;
+			buildPhases = (
+				875BE6D41D730CDC00EE48B2 /* Sources */,
+				875BE6D51D730CDC00EE48B2 /* Frameworks */,
+				875BE6D61D730CDC00EE48B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				875BE6DA1D730CDC00EE48B2 /* PBXTargetDependency */,
+			);
+			name = "Realm-ReoderTableView-SampleTests";
+			productName = "Realm-ReoderTableView-SampleTests";
+			productReference = 875BE6D81D730CDC00EE48B2 /* Realm-ReoderTableView-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		875BE6E21D730CDC00EE48B2 /* Realm-ReoderTableView-SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875BE6F21D730CDC00EE48B2 /* Build configuration list for PBXNativeTarget "Realm-ReoderTableView-SampleUITests" */;
+			buildPhases = (
+				875BE6DF1D730CDC00EE48B2 /* Sources */,
+				875BE6E01D730CDC00EE48B2 /* Frameworks */,
+				875BE6E11D730CDC00EE48B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				875BE6E51D730CDC00EE48B2 /* PBXTargetDependency */,
+			);
+			name = "Realm-ReoderTableView-SampleUITests";
+			productName = "Realm-ReoderTableView-SampleUITests";
+			productReference = 875BE6E31D730CDC00EE48B2 /* Realm-ReoderTableView-SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		875BE6BC1D730CDB00EE48B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Scrtree;
+				TargetAttributes = {
+					875BE6C31D730CDB00EE48B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					875BE6D71D730CDC00EE48B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 875BE6C31D730CDB00EE48B2;
+					};
+					875BE6E21D730CDC00EE48B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 875BE6C31D730CDB00EE48B2;
+					};
+				};
+			};
+			buildConfigurationList = 875BE6BF1D730CDB00EE48B2 /* Build configuration list for PBXProject "Realm-ReoderTableView-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 875BE6BB1D730CDB00EE48B2;
+			productRefGroup = 875BE6C51D730CDB00EE48B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				875BE6C31D730CDB00EE48B2 /* Realm-ReoderTableView-Sample */,
+				875BE6D71D730CDC00EE48B2 /* Realm-ReoderTableView-SampleTests */,
+				875BE6E21D730CDC00EE48B2 /* Realm-ReoderTableView-SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		875BE6C21D730CDB00EE48B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875BE6D21D730CDB00EE48B2 /* LaunchScreen.storyboard in Resources */,
+				875BE6CF1D730CDB00EE48B2 /* Assets.xcassets in Resources */,
+				875BE6CD1D730CDB00EE48B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875BE6D61D730CDC00EE48B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875BE6E11D730CDC00EE48B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		875BE6C01D730CDB00EE48B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875BE6CA1D730CDB00EE48B2 /* ViewController.swift in Sources */,
+				875BE6C81D730CDB00EE48B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875BE6D41D730CDC00EE48B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875BE6DD1D730CDC00EE48B2 /* Realm_ReoderTableView_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875BE6DF1D730CDC00EE48B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875BE6E81D730CDC00EE48B2 /* Realm_ReoderTableView_SampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		875BE6DA1D730CDC00EE48B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 875BE6C31D730CDB00EE48B2 /* Realm-ReoderTableView-Sample */;
+			targetProxy = 875BE6D91D730CDC00EE48B2 /* PBXContainerItemProxy */;
+		};
+		875BE6E51D730CDC00EE48B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 875BE6C31D730CDB00EE48B2 /* Realm-ReoderTableView-Sample */;
+			targetProxy = 875BE6E41D730CDC00EE48B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		875BE6CB1D730CDB00EE48B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				875BE6CC1D730CDB00EE48B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		875BE6D01D730CDB00EE48B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				875BE6D11D730CDB00EE48B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		875BE6EA1D730CDC00EE48B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		875BE6EB1D730CDC00EE48B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		875BE6ED1D730CDC00EE48B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Realm-ReoderTableView-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scrtree.Realm-ReoderTableView-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		875BE6EE1D730CDC00EE48B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Realm-ReoderTableView-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scrtree.Realm-ReoderTableView-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		875BE6F01D730CDC00EE48B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Realm-ReoderTableView-SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scrtree.Realm-ReoderTableView-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Realm-ReoderTableView-Sample.app/Realm-ReoderTableView-Sample";
+			};
+			name = Debug;
+		};
+		875BE6F11D730CDC00EE48B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Realm-ReoderTableView-SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scrtree.Realm-ReoderTableView-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Realm-ReoderTableView-Sample.app/Realm-ReoderTableView-Sample";
+			};
+			name = Release;
+		};
+		875BE6F31D730CDC00EE48B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Realm-ReoderTableView-SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scrtree.Realm-ReoderTableView-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Realm-ReoderTableView-Sample";
+			};
+			name = Debug;
+		};
+		875BE6F41D730CDC00EE48B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Realm-ReoderTableView-SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scrtree.Realm-ReoderTableView-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Realm-ReoderTableView-Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		875BE6BF1D730CDB00EE48B2 /* Build configuration list for PBXProject "Realm-ReoderTableView-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875BE6EA1D730CDC00EE48B2 /* Debug */,
+				875BE6EB1D730CDC00EE48B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875BE6EC1D730CDC00EE48B2 /* Build configuration list for PBXNativeTarget "Realm-ReoderTableView-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875BE6ED1D730CDC00EE48B2 /* Debug */,
+				875BE6EE1D730CDC00EE48B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		875BE6EF1D730CDC00EE48B2 /* Build configuration list for PBXNativeTarget "Realm-ReoderTableView-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875BE6F01D730CDC00EE48B2 /* Debug */,
+				875BE6F11D730CDC00EE48B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		875BE6F21D730CDC00EE48B2 /* Build configuration list for PBXNativeTarget "Realm-ReoderTableView-SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875BE6F31D730CDC00EE48B2 /* Debug */,
+				875BE6F41D730CDC00EE48B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 875BE6BC1D730CDB00EE48B2 /* Project object */;
+}
