@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06E6A7C03A8FF896B343C983 /* Pods_Realm_ReoderTableView_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8002FC2168C6F90C5DD67F /* Pods_Realm_ReoderTableView_SampleUITests.framework */; };
 		875BE6C81D730CDB00EE48B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BE6C71D730CDB00EE48B2 /* AppDelegate.swift */; };
 		875BE6CA1D730CDB00EE48B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BE6C91D730CDB00EE48B2 /* ViewController.swift */; };
 		875BE6CD1D730CDB00EE48B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875BE6CB1D730CDB00EE48B2 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		875BE6D21D730CDB00EE48B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875BE6D01D730CDB00EE48B2 /* LaunchScreen.storyboard */; };
 		875BE6DD1D730CDC00EE48B2 /* Realm_ReoderTableView_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BE6DC1D730CDC00EE48B2 /* Realm_ReoderTableView_SampleTests.swift */; };
 		875BE6E81D730CDC00EE48B2 /* Realm_ReoderTableView_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BE6E71D730CDC00EE48B2 /* Realm_ReoderTableView_SampleUITests.swift */; };
+		ABD4E68407FE8C4C0CE724B9 /* Pods_Realm_ReoderTableView_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CF40D0EFCBE9658A2917F2 /* Pods_Realm_ReoderTableView_Sample.framework */; };
+		E5564048E9A23341D733A301 /* Pods_Realm_ReoderTableView_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E110B173067A9B7116764E4 /* Pods_Realm_ReoderTableView_SampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0760AD5160FCA2B064EA42DC /* Pods-Realm-ReoderTableView-SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm-ReoderTableView-SampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Realm-ReoderTableView-SampleUITests/Pods-Realm-ReoderTableView-SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BE580368C89AA6D44BA954A /* Pods-Realm-ReoderTableView-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm-ReoderTableView-SampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Realm-ReoderTableView-SampleUITests/Pods-Realm-ReoderTableView-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E75348297D6686189748135 /* Pods-Realm-ReoderTableView-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm-ReoderTableView-SampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Realm-ReoderTableView-SampleTests/Pods-Realm-ReoderTableView-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E110B173067A9B7116764E4 /* Pods_Realm_ReoderTableView_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realm_ReoderTableView_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		875BE6C41D730CDB00EE48B2 /* Realm-ReoderTableView-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realm-ReoderTableView-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		875BE6C71D730CDB00EE48B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		875BE6C91D730CDB00EE48B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		875BE6E31D730CDC00EE48B2 /* Realm-ReoderTableView-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Realm-ReoderTableView-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		875BE6E71D730CDC00EE48B2 /* Realm_ReoderTableView_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm_ReoderTableView_SampleUITests.swift; sourceTree = "<group>"; };
 		875BE6E91D730CDC00EE48B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5CF40D0EFCBE9658A2917F2 /* Pods_Realm_ReoderTableView_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realm_ReoderTableView_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62D23E0D3AC3703AEDF5081 /* Pods-Realm-ReoderTableView-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm-ReoderTableView-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Realm-ReoderTableView-Sample/Pods-Realm-ReoderTableView-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		D5AD64018E044452BEFF47C1 /* Pods-Realm-ReoderTableView-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm-ReoderTableView-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Realm-ReoderTableView-Sample/Pods-Realm-ReoderTableView-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		DA8002FC2168C6F90C5DD67F /* Pods_Realm_ReoderTableView_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realm_ReoderTableView_SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42A4CD7FABA54330E6F5A65 /* Pods-Realm-ReoderTableView-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm-ReoderTableView-SampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Realm-ReoderTableView-SampleTests/Pods-Realm-ReoderTableView-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD4E68407FE8C4C0CE724B9 /* Pods_Realm_ReoderTableView_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5564048E9A23341D733A301 /* Pods_Realm_ReoderTableView_SampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E6A7C03A8FF896B343C983 /* Pods_Realm_ReoderTableView_SampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		853388CE0A72EB731144BB18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B62D23E0D3AC3703AEDF5081 /* Pods-Realm-ReoderTableView-Sample.debug.xcconfig */,
+				D5AD64018E044452BEFF47C1 /* Pods-Realm-ReoderTableView-Sample.release.xcconfig */,
+				E42A4CD7FABA54330E6F5A65 /* Pods-Realm-ReoderTableView-SampleTests.debug.xcconfig */,
+				2E75348297D6686189748135 /* Pods-Realm-ReoderTableView-SampleTests.release.xcconfig */,
+				0760AD5160FCA2B064EA42DC /* Pods-Realm-ReoderTableView-SampleUITests.debug.xcconfig */,
+				1BE580368C89AA6D44BA954A /* Pods-Realm-ReoderTableView-SampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		875BE6BB1D730CDB00EE48B2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				875BE6DB1D730CDC00EE48B2 /* Realm-ReoderTableView-SampleTests */,
 				875BE6E61D730CDC00EE48B2 /* Realm-ReoderTableView-SampleUITests */,
 				875BE6C51D730CDB00EE48B2 /* Products */,
+				853388CE0A72EB731144BB18 /* Pods */,
+				D70BB04D1D65D072DD169F85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = "Realm-ReoderTableView-SampleUITests";
 			sourceTree = "<group>";
 		};
+		D70BB04D1D65D072DD169F85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5CF40D0EFCBE9658A2917F2 /* Pods_Realm_ReoderTableView_Sample.framework */,
+				7E110B173067A9B7116764E4 /* Pods_Realm_ReoderTableView_SampleTests.framework */,
+				DA8002FC2168C6F90C5DD67F /* Pods_Realm_ReoderTableView_SampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 875BE6EC1D730CDC00EE48B2 /* Build configuration list for PBXNativeTarget "Realm-ReoderTableView-Sample" */;
 			buildPhases = (
+				AB15355D33A035DEC26A4DAE /* [CP] Check Pods Manifest.lock */,
 				875BE6C01D730CDB00EE48B2 /* Sources */,
 				875BE6C11D730CDB00EE48B2 /* Frameworks */,
 				875BE6C21D730CDB00EE48B2 /* Resources */,
+				79810C516608E9BB7A83817F /* [CP] Embed Pods Frameworks */,
+				8413674344DCF2AFB3C36407 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 875BE6EF1D730CDC00EE48B2 /* Build configuration list for PBXNativeTarget "Realm-ReoderTableView-SampleTests" */;
 			buildPhases = (
+				D5F9CF0A224436802B554172 /* [CP] Check Pods Manifest.lock */,
 				875BE6D41D730CDC00EE48B2 /* Sources */,
 				875BE6D51D730CDC00EE48B2 /* Frameworks */,
 				875BE6D61D730CDC00EE48B2 /* Resources */,
+				A23A659430B3DFA70DFE7AEB /* [CP] Embed Pods Frameworks */,
+				9F57D52D9E90D68527449BC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 875BE6F21D730CDC00EE48B2 /* Build configuration list for PBXNativeTarget "Realm-ReoderTableView-SampleUITests" */;
 			buildPhases = (
+				C4D3B962D5B2C0F4F5B324AB /* [CP] Check Pods Manifest.lock */,
 				875BE6DF1D730CDC00EE48B2 /* Sources */,
 				875BE6E01D730CDC00EE48B2 /* Frameworks */,
 				875BE6E11D730CDC00EE48B2 /* Resources */,
+				C5F316B418663F6B8AC7DE59 /* [CP] Embed Pods Frameworks */,
+				1838AC181DFF513CCD0BBAE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +299,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1838AC181DFF513CCD0BBAE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Realm-ReoderTableView-SampleUITests/Pods-Realm-ReoderTableView-SampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79810C516608E9BB7A83817F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Realm-ReoderTableView-Sample/Pods-Realm-ReoderTableView-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8413674344DCF2AFB3C36407 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Realm-ReoderTableView-Sample/Pods-Realm-ReoderTableView-Sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F57D52D9E90D68527449BC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Realm-ReoderTableView-SampleTests/Pods-Realm-ReoderTableView-SampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A23A659430B3DFA70DFE7AEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Realm-ReoderTableView-SampleTests/Pods-Realm-ReoderTableView-SampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB15355D33A035DEC26A4DAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4D3B962D5B2C0F4F5B324AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F316B418663F6B8AC7DE59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Realm-ReoderTableView-SampleUITests/Pods-Realm-ReoderTableView-SampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F9CF0A224436802B554172 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		875BE6C01D730CDB00EE48B2 /* Sources */ = {
@@ -397,6 +584,7 @@
 		};
 		875BE6ED1D730CDC00EE48B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62D23E0D3AC3703AEDF5081 /* Pods-Realm-ReoderTableView-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Realm-ReoderTableView-Sample/Info.plist";
@@ -408,6 +596,7 @@
 		};
 		875BE6EE1D730CDC00EE48B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AD64018E044452BEFF47C1 /* Pods-Realm-ReoderTableView-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Realm-ReoderTableView-Sample/Info.plist";
@@ -419,6 +608,7 @@
 		};
 		875BE6F01D730CDC00EE48B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42A4CD7FABA54330E6F5A65 /* Pods-Realm-ReoderTableView-SampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Realm-ReoderTableView-SampleTests/Info.plist";
@@ -431,6 +621,7 @@
 		};
 		875BE6F11D730CDC00EE48B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E75348297D6686189748135 /* Pods-Realm-ReoderTableView-SampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Realm-ReoderTableView-SampleTests/Info.plist";
@@ -443,6 +634,7 @@
 		};
 		875BE6F31D730CDC00EE48B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0760AD5160FCA2B064EA42DC /* Pods-Realm-ReoderTableView-SampleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Realm-ReoderTableView-SampleUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +646,7 @@
 		};
 		875BE6F41D730CDC00EE48B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE580368C89AA6D44BA954A /* Pods-Realm-ReoderTableView-SampleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Realm-ReoderTableView-SampleUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +675,7 @@
 				875BE6EE1D730CDC00EE48B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		875BE6EF1D730CDC00EE48B2 /* Build configuration list for PBXNativeTarget "Realm-ReoderTableView-SampleTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +684,7 @@
 				875BE6F11D730CDC00EE48B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		875BE6F21D730CDC00EE48B2 /* Build configuration list for PBXNativeTarget "Realm-ReoderTableView-SampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +693,7 @@
 				875BE6F41D730CDC00EE48B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

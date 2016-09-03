@@ -1,0 +1,6 @@
+framework module Pods_Realm_ReoderTableView_Sample {
+  umbrella header "Pods-Realm-ReoderTableView-Sample-umbrella.h"
+
+  export *
+  module * { export * }
+}
