@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--First Sample Realm View Controller-->
+        <!--Realm-ReoderTableView-Sample-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="FirstSampleRealmViewController" sceneMemberID="viewController">
@@ -31,8 +31,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="3yP-jT-Jzg"/>
+                    <navigationItem key="navigationItem" title="Realm-ReoderTableView-Sample" id="3yP-jT-Jzg"/>
                     <connections>
+                        <outlet property="navTitle" destination="3yP-jT-Jzg" id="0CZ-9H-Woe"/>
                         <segue destination="wSN-wa-mRa" kind="push" identifier="pushView" id="2LH-N8-Phz"/>
                     </connections>
                 </viewController>
