@@ -9,13 +9,11 @@
 import UIKit
 
 class FirstSampleRealmViewController: UIViewController {
-    @IBOutlet weak var navTitle: UINavigationItem!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        navTitle.title = "FirstSampleRealmViewController"
     }
     
     override func didReceiveMemoryWarning() {

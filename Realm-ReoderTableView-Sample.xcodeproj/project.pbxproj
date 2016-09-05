@@ -16,6 +16,7 @@
 		875BE6DD1D730CDC00EE48B2 /* Realm_ReoderTableView_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BE6DC1D730CDC00EE48B2 /* Realm_ReoderTableView_SampleTests.swift */; };
 		875BE6E81D730CDC00EE48B2 /* Realm_ReoderTableView_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BE6E71D730CDC00EE48B2 /* Realm_ReoderTableView_SampleUITests.swift */; };
 		877A8D941D7BB7FB006C27C6 /* FirstSampleRealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A8D931D7BB7FB006C27C6 /* FirstSampleRealmViewController.swift */; };
+		877A8D961D7DA592006C27C6 /* SecondSampleRealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A8D951D7DA592006C27C6 /* SecondSampleRealmViewController.swift */; };
 		ABD4E68407FE8C4C0CE724B9 /* Pods_Realm_ReoderTableView_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CF40D0EFCBE9658A2917F2 /* Pods_Realm_ReoderTableView_Sample.framework */; };
 		E5564048E9A23341D733A301 /* Pods_Realm_ReoderTableView_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E110B173067A9B7116764E4 /* Pods_Realm_ReoderTableView_SampleTests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		875BE6E71D730CDC00EE48B2 /* Realm_ReoderTableView_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm_ReoderTableView_SampleUITests.swift; sourceTree = "<group>"; };
 		875BE6E91D730CDC00EE48B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		877A8D931D7BB7FB006C27C6 /* FirstSampleRealmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstSampleRealmViewController.swift; sourceTree = "<group>"; };
+		877A8D951D7DA592006C27C6 /* SecondSampleRealmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondSampleRealmViewController.swift; sourceTree = "<group>"; };
 		B5CF40D0EFCBE9658A2917F2 /* Pods_Realm_ReoderTableView_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realm_ReoderTableView_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62D23E0D3AC3703AEDF5081 /* Pods-Realm-ReoderTableView-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm-ReoderTableView-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Realm-ReoderTableView-Sample/Pods-Realm-ReoderTableView-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		D5AD64018E044452BEFF47C1 /* Pods-Realm-ReoderTableView-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm-ReoderTableView-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Realm-ReoderTableView-Sample/Pods-Realm-ReoderTableView-Sample.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				875BE6C71D730CDB00EE48B2 /* AppDelegate.swift */,
 				875BE6C91D730CDB00EE48B2 /* ViewController.swift */,
 				877A8D931D7BB7FB006C27C6 /* FirstSampleRealmViewController.swift */,
+				877A8D951D7DA592006C27C6 /* SecondSampleRealmViewController.swift */,
 				875BE6CB1D730CDB00EE48B2 /* Main.storyboard */,
 				875BE6CE1D730CDB00EE48B2 /* Assets.xcassets */,
 				875BE6D01D730CDB00EE48B2 /* LaunchScreen.storyboard */,
@@ -448,6 +451,7 @@
 			files = (
 				875BE6CA1D730CDB00EE48B2 /* ViewController.swift in Sources */,
 				877A8D941D7BB7FB006C27C6 /* FirstSampleRealmViewController.swift in Sources */,
+				877A8D961D7DA592006C27C6 /* SecondSampleRealmViewController.swift in Sources */,
 				875BE6C81D730CDB00EE48B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

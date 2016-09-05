@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Realm-ReoderTableView-Sample-->
+        <!--FirstSampleRealmViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FirstSampleRealmViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstSampleRealmViewController" id="BYZ-38-t0r" customClass="FirstSampleRealmViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -31,7 +31,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Realm-ReoderTableView-Sample" id="3yP-jT-Jzg"/>
+                    <navigationItem key="navigationItem" title="FirstSampleRealmViewController" id="3yP-jT-Jzg"/>
                     <connections>
                         <outlet property="navTitle" destination="3yP-jT-Jzg" id="0CZ-9H-Woe"/>
                         <segue destination="wSN-wa-mRa" kind="push" identifier="pushView" id="2LH-N8-Phz"/>
@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="1254" y="184"/>
         </scene>
-        <!--Second Sample Realm View Controller-->
+        <!--SecondSampleRealmViewController-->
         <scene sceneID="a2O-Yz-Dx6">
             <objects>
-                <viewController id="wSN-wa-mRa" customClass="SecondSampleRealmViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondSampleRealmViewController" id="wSN-wa-mRa" customClass="SecondSampleRealmViewController" customModule="Realm_ReoderTableView_Sample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="96I-5A-NN6"/>
                         <viewControllerLayoutGuide type="bottom" id="tBB-a6-WU0"/>
@@ -60,7 +60,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="R3b-yh-eTb"/>
+                    <navigationItem key="navigationItem" title="SecondSampleRealmViewController" id="R3b-yh-eTb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HzB-He-Uz3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
