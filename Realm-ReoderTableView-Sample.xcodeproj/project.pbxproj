@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		06E6A7C03A8FF896B343C983 /* Pods_Realm_ReoderTableView_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8002FC2168C6F90C5DD67F /* Pods_Realm_ReoderTableView_SampleUITests.framework */; };
 		875BE6C81D730CDB00EE48B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BE6C71D730CDB00EE48B2 /* AppDelegate.swift */; };
-		875BE6CA1D730CDB00EE48B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BE6C91D730CDB00EE48B2 /* ViewController.swift */; };
 		875BE6CD1D730CDB00EE48B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875BE6CB1D730CDB00EE48B2 /* Main.storyboard */; };
 		875BE6CF1D730CDB00EE48B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875BE6CE1D730CDB00EE48B2 /* Assets.xcassets */; };
 		875BE6D21D730CDB00EE48B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875BE6D01D730CDB00EE48B2 /* LaunchScreen.storyboard */; };
@@ -45,7 +44,6 @@
 		7E110B173067A9B7116764E4 /* Pods_Realm_ReoderTableView_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realm_ReoderTableView_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		875BE6C41D730CDB00EE48B2 /* Realm-ReoderTableView-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realm-ReoderTableView-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		875BE6C71D730CDB00EE48B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		875BE6C91D730CDB00EE48B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		875BE6CC1D730CDB00EE48B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		875BE6CE1D730CDB00EE48B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875BE6D11D730CDB00EE48B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -132,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				875BE6C71D730CDB00EE48B2 /* AppDelegate.swift */,
-				875BE6C91D730CDB00EE48B2 /* ViewController.swift */,
 				877A8D931D7BB7FB006C27C6 /* FirstSampleRealmViewController.swift */,
 				877A8D951D7DA592006C27C6 /* SecondSampleRealmViewController.swift */,
 				875BE6CB1D730CDB00EE48B2 /* Main.storyboard */,
@@ -449,7 +446,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				875BE6CA1D730CDB00EE48B2 /* ViewController.swift in Sources */,
 				877A8D941D7BB7FB006C27C6 /* FirstSampleRealmViewController.swift in Sources */,
 				877A8D961D7DA592006C27C6 /* SecondSampleRealmViewController.swift in Sources */,
 				875BE6C81D730CDB00EE48B2 /* AppDelegate.swift in Sources */,
