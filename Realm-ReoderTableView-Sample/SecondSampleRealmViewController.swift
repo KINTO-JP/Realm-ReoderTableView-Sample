@@ -9,6 +9,7 @@
 import UIKit
 
 class SecondSampleRealmViewController: UIViewController {
+    @IBOutlet weak var secondRealmTableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
