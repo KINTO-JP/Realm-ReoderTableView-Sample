@@ -33,8 +33,6 @@
                     </view>
                     <navigationItem key="navigationItem" title="FirstSampleRealmViewController" id="3yP-jT-Jzg"/>
                     <connections>
-                        <outlet property="firstRealmTableView" destination="Hiz-Lf-ZNY" id="aPQ-VB-wR3"/>
-                        <outlet property="navTitle" destination="3yP-jT-Jzg" id="0CZ-9H-Woe"/>
                         <segue destination="wSN-wa-mRa" kind="push" identifier="pushView" id="2LH-N8-Phz"/>
                     </connections>
                 </viewController>
