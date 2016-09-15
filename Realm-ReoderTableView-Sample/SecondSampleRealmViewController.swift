@@ -28,7 +28,7 @@ class SecondSampleRealmViewController: UIViewController, UITableViewDelegate, UI
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell")
-        cell?.textLabel?.text = "aaa"
+        cell?.textLabel?.text = "bbb"
         
         return cell!
     }
